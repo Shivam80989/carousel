@@ -1,0 +1,24 @@
+.main_container{
+    @apply flex justify-evenly items-center p-5 h-screen bg-stone-900
+}
+.p{
+    @apply flex justify-center
+}
+.prev_btn{
+    @apply border border-solid border-white rounded w-14 cursor-pointer font-semibold;
+}
+.prev_btn :hover{
+    @apply bg-white text-neutral-950
+}
+.nxt_btn{
+    @apply border border-solid border-white rounded w-14 cursor-pointer font-semibold;
+}
+.nxt_btn :hover{
+    @apply bg-white text-neutral-950
+}
+.mainn_img{
+    @apply flex justify-center
+}
+.main_img{
+    @apply w-[80%] rounded-2xl
+}

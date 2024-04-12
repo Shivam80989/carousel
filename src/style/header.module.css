@@ -1,0 +1,31 @@
+.main_container{
+    @apply bg-stone-800 h-20 w-full flex items-center  sticky
+}
+.logo{
+    @apply h-28 w-28  flex items-center cursor-pointer
+}
+.searchbar{
+    @apply   w-96 px-72   text-zinc-950
+}
+.search{
+    @apply  border rounded-full  w-96  px-4 font-bold
+
+}
+.home{
+    @apply  text-slate-100 font-extrabold  px-36 cursor-pointer
+}
+.home :hover{
+    @apply text-stone-500
+}
+.about{
+    @apply  text-slate-100 font-extrabold px-5 cursor-pointer
+}
+.about :hover{
+    @apply text-stone-500
+}
+.login{
+    @apply  text-slate-100 font-extrabold px-5 cursor-pointer
+}
+.login :hover{
+    @apply text-stone-500
+}
